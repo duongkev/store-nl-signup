@@ -1,0 +1,19 @@
+@import '../node_modules/include-media/dist/_include-media.scss';
+@import 'colors';
+@import 'fonts';
+@import 'variables';
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+// resets
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+

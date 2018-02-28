@@ -1,0 +1,91 @@
+@import 'global';
+
+body {
+  font: 16px/1.6 $font-primary;
+  color: $medium-gray;
+}
+
+// Button styles
+.button {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font: normal 400 14px/40px $font-secondary;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: none;
+  cursor: pointer;
+
+  &.button-primary {
+    color: $white;
+    text-transform: uppercase;
+    background-color: $dark-gray;
+    border-color: $dark-gray;
+    &:hover,
+    &:active {
+      color: $white;
+      background-color: $dark-gray;
+      opacity: .85;
+    }
+  }
+  &.button-default {
+    font-size: 12px;
+    font-weight: 500;
+    color: $dark-gray;
+    background-color: transparent;
+    border-color: $dark-gray;
+    &:hover,
+    &:active {
+      color: $dark-gray;
+      background-color: $off-white;
+    }
+  }
+  &.button-link {
+    font: 11px $font-primary;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $medium-gray;
+    padding: 0;
+    min-width: 0;
+    height: auto;
+    vertical-align: middle;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+  &.button-sm,
+  &.icon-link {
+    background-color: transparent;
+    border: none;
+    color: $dark-gray;
+    height: auto;
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+      opacity: .85;
+    }
+  }
+  &.button-sm {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+  &.button-none {
+    height: auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    line-height: inherit;
+    text-transform: none;
+    text-decoration: none;
+    background-color: transparent;
+    vertical-align: top;
+    appearance: none;
+  }
+}
