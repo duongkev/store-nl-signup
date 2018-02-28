@@ -1,6 +1,6 @@
 # store-nl-signup
 
-Background: Goop would like to collect newsletter sign-ups in our physical stores. We can do this by creating a simple sign up form where a store employee or a customer can enter their email.
+<b>Background</b>: Goop would like to collect newsletter sign-ups in our physical stores. We can do this by creating a simple sign up form where a store employee or a customer can enter their email.
 
 Acceptance Criteria:
 
